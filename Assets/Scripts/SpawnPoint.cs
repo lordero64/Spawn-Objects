@@ -7,7 +7,7 @@ public class SpawnPoint : MonoBehaviour
 {
     [SerializeField] private Transform _target;
 
-    public Vector3 GetVector()
+    public Vector3 GetDirection()
     {
         return _target.position;
     }

@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
         _firstDirectory = directory;
     }
 
-    void Update()
+    private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, _firstDirectory, _speed * Time.deltaTime);
     }
